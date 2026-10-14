@@ -1,4 +1,3 @@
-# TTC-Delay-Prediction
 # TTC Subway Delay Prediction
 
 Predicting whether a TTC subway delay incident will be long (≥ 5 min)
@@ -13,12 +12,12 @@ whether it will cause a delay of 5 minutes or more?
 - Data is not included in this repo. Download it and place it in `data/raw/`.
 
 ## Setup
-​```bash
+```bash
 python -m venv .venv
-source .venv/bin/activate
+source .venv/bin/activate      
 # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-​```
+```
 
 ## Project Structure
 - `notebooks/` — EDA and modeling notebooks
